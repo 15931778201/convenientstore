@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">我的便利店</string>
+
+    <string-array name="type">
+        <item>牛奶饮料</item>
+        <item>糕点蜜饯</item>
+        <item>麻辣肉脯</item>
+        <item>其他品类</item>
+    </string-array>
+
+    <!--zxing-->
+    <string name="msg_camera_framework_bug">相机被占用或没有相机权限，请检查</string>
+    <string name="button_ok">退出</string>
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0.0dip"
+    android:background="#e8ecef" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mainuser_gridview_bg"
+        android:padding="10.0dip" >
+
+
+        <TextView
+            android:id="@+id/tv_month_grid_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_mainadmin_grid_item"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5.0dip"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="14.0sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

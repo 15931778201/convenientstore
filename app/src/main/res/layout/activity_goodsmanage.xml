@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#199efd" >
+        <ImageView
+            android:id="@+id/iv_goodsmanage_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_titlebar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="商品管理"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/goodsmanage_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#d6dbe5"
+        android:dividerHeight="1dp"
+        >
+    </ListView>
+    <TextView
+        android:id="@+id/tv_goodsmanage_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="暂未发布商品！"
+        android:textSize="18sp"
+        android:textColor="#999999"
+        android:gravity="center"
+        />
+
+</LinearLayout>
